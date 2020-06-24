@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
     count = array.index("#{word}")
     array[count].reverse!
   end
-  array
+  array.join(" ")
 end
 reverse_each_word("Hello there, and how are you?")
